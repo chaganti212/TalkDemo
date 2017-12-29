@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository_WebAPI", "Repository_WebAPI\Repository_WebAPI.csproj", "{5C472724-3C00-454F-AAD7-1D5713191988}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cors_Demo", "Cors_Demo\Cors_Demo.csproj", "{814511F0-3485-4ADF-88C5-6996F39E1898}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5C472724-3C00-454F-AAD7-1D5713191988} = {5C472724-3C00-454F-AAD7-1D5713191988}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C472724-3C00-454F-AAD7-1D5713191988}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C472724-3C00-454F-AAD7-1D5713191988}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C472724-3C00-454F-AAD7-1D5713191988}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C472724-3C00-454F-AAD7-1D5713191988}.Release|Any CPU.Build.0 = Release|Any CPU
+		{814511F0-3485-4ADF-88C5-6996F39E1898}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{814511F0-3485-4ADF-88C5-6996F39E1898}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{814511F0-3485-4ADF-88C5-6996F39E1898}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{814511F0-3485-4ADF-88C5-6996F39E1898}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

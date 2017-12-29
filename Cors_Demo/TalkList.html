@@ -1,0 +1,13 @@
+﻿<ng-template #readOnlyTemplate let-talk>
+    <td>{{Talk.id}}</td>
+    <td>{{Talk.Name}}</td>
+    <td>{{Talk.speaker}}</td>
+    <td>{{Talk.venue}}</td>
+    <td>{{Talk.duration}}</td>
+    <td>
+        <input type="button" value="Edit" class="btn btn-default" (click)="edittalk(Talk)" />
+    </td>
+    <td>
+        <input type="button" value="Delete" (click)="deletetalk(Talk)" class="btn btn-danger" />
+    </td>
+</ng-template>
